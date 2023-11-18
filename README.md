@@ -1,10 +1,10 @@
-# [enpass](#enpass)
+# [Ansible role enpass](#enpass)
 
 Install the Enpass password manager on your system.
 
-|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-enpass/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-enpass/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-enpass/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-enpass)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/buluma/enpass)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/enpass)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-enpass.svg)](https://github.com/buluma/ansible-role-enpass/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-enpass.svg)](https://github.com/buluma/ansible-role-enpass/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-enpass.svg)](https://github.com/buluma/ansible-role-enpass/pulls/)|
+|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-enpass/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-enpass/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-enpass/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-enpass)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/enpass)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-enpass.svg)](https://github.com/buluma/ansible-role-enpass/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-enpass.svg)](https://github.com/buluma/ansible-role-enpass/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-enpass.svg)](https://github.com/buluma/ansible-role-enpass/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
