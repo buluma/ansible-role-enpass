@@ -1,10 +1,10 @@
-# [Ansible role enpass](#enpass)
+# Ansible role [enpass](https://galaxy.ansible.com/ui/standalone/roles/buluma/enpass/documentation)
 
 Install the Enpass password manager on your system.
 
-|GitHub|Version|Issues|Pull Requests|
-|------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-enpass/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-enpass/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-enpass.svg)](https://github.com/buluma/ansible-role-enpass/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-enpass.svg)](https://github.com/buluma/ansible-role-enpass/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-enpass.svg)](https://github.com/buluma/ansible-role-enpass/pulls/)|
+|GitHub|Version|Issues|Pull Requests|Downloads|
+|------|-------|------|-------------|---------|
+|[![github](https://github.com/buluma/ansible-role-enpass/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-enpass/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-enpass.svg)](https://github.com/buluma/ansible-role-enpass/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-enpass.svg)](https://github.com/buluma/ansible-role-enpass/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-enpass.svg)](https://github.com/buluma/ansible-role-enpass/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/enpass)](https://galaxy.ansible.com/ui/standalone/roles/buluma/enpass/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -91,13 +91,11 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 ## [License](#license)
 
-[Apache-2.0](https://github.com/buluma/ansible-role-enpass/blob/master/LICENSE).
+[Apache-2.0](https://github.com/buluma/ansible-role-enpass/blob/master/LICENSE)
 
 ## [Author Information](#author-information)
 
-[robertdebock](https://buluma.github.io/)
+[Shadow Walker](https://buluma.github.io/)
 
-
-### [Special Thanks](#special-thanks)
 
 Template inspired by [Robert de Bock](https://github.com/robertdebock)
