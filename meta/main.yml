@@ -1,3 +1,4 @@
+---
 galaxy_info:
   author: robertdebock
   role_name: enpass
@@ -6,9 +7,9 @@ galaxy_info:
   company: none
   min_ansible_version: '2.12'
   platforms:
-  - name: Debian
-    versions:
-    - all
+    - name: Debian
+      versions:
+        - all
   - name: EL
     versions:
     - all
@@ -22,7 +23,7 @@ galaxy_info:
     versions:
     - all
   galaxy_tags:
-  - enpass
+    - enpass
   - passwordmanager
   - password
   - security
