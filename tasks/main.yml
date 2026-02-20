@@ -45,8 +45,7 @@
       loop: "{{ enpass_yum_repositories }}"
       loop_control:
         label: "{{ item.name }}"
-      when:
-        item.name != "enpass-testing"
+      when: item.name != "enpass-testing"
 
 - name: Trust YUM key
   ansible.builtin.rpm_key:

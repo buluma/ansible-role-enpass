@@ -55,7 +55,8 @@ _enpass_requirements:
     - libxkbcommon-x11-0
     - libpulse0
     - libgtk-3-0
-enpass_requirements: "{{ _enpass_requirements[ansible_os_family ~ '-' ~ ansible_distribution_major_version] | default(_enpass_requirements[ansible_os_family] | default(_enpass_requirements['default'])) }}"
+enpass_requirements: "{{ _enpass_requirements[ansible_os_family ~ '-' ~ ansible_distribution_major_version] | default(_enpass_requirements[ansible_os_family] | default(_enpass_requirements['default']))
+  }}"
 
 enpass_yum_repositories:
   - name: enpass
