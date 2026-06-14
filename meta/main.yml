@@ -1,6 +1,7 @@
 ---
 galaxy_info:
   author: robertdebock
+  namespace: buluma
   role_name: enpass
   description: Install the Enpass password manager on your system.
   license: Apache-2.0
