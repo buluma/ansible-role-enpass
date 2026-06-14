@@ -10,9 +10,11 @@
     - ansible_os_family == "Debian"
   block:
     - name: Trust APT key
-      ansible.builtin.apt_key:
+      ansible.builtin.get_url:
         url: "https://apt.enpass.io/keys/enpass-linux.key"
+        dest: /etc/apt/trusted.gpg.d/enpass.asc
         validate_certs: false
+        mode: "0644"
 
     - name: Add APT repository
       ansible.builtin.apt_repository:
