@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  author: robertdebock
+  author: buluma
   namespace: buluma
   role_name: enpass
   description: Install the Enpass password manager on your system.
