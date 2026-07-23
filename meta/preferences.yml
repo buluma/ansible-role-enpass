@@ -4,7 +4,8 @@
 platforms:
   - name: EL
     versions:
-      - "10"
+      # Excludes 10: enpass's RPM needs libXss.so.1 and libgc.so.1, which
+      # EL10 dropped from its repos entirely.
       - "9"
   - name: Debian
     versions:
