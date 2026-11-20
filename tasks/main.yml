@@ -13,13 +13,10 @@
       ansible.builtin.package:
         name: python3-debian
 
-    # The key and the one-line source below were written by earlier versions
-    # of this role. Remove them so upgrades don't leave duplicate sources.
-    - name: Remove legacy APT key
-      ansible.builtin.file:
-        path: /etc/apt/trusted.gpg.d/enpass.asc
-        state: absent
-
+    # The one-line source below was written by earlier versions of this role.
+    # Remove it so upgrades don't leave duplicate sources. The key in
+    # /etc/apt/trusted.gpg.d/enpass.asc is not removed: the enpass package
+    # downloads it again in its postinst on every install and upgrade.
     - name: Remove legacy APT source
       ansible.builtin.file:
         path: /etc/apt/sources.list.d/apt_enpass_io.list
