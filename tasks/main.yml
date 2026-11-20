@@ -14,9 +14,7 @@
         name: python3-debian
 
     # The one-line source below was written by earlier versions of this role.
-    # Remove it so upgrades don't leave duplicate sources. The key in
-    # /etc/apt/trusted.gpg.d/enpass.asc is not removed: the enpass package
-    # downloads it again in its postinst on every install and upgrade.
+    # Remove it so upgrades don't leave duplicate sources.
     - name: Remove legacy APT source
       ansible.builtin.file:
         path: /etc/apt/sources.list.d/apt_enpass_io.list
@@ -78,3 +76,14 @@
 - name: Install enpass
   ansible.builtin.package:
     name: enpass
+
+# The enpass package downloads its key into /etc/apt/trusted.gpg.d in its postinst on
+# every install and upgrade, which makes apt trust it for all repositories. Trust comes
+# from signed_by in the repository above, so remove the key after the package is installed.
+# This only changes on the run that installs or upgrades the package.
+- name: Remove globally trusted APT key installed by the package
+  ansible.builtin.file:
+    path: /etc/apt/trusted.gpg.d/enpass.asc
+    state: absent
+  when:
+    - ansible_facts['os_family'] == "Debian"
